@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: monvillanueva
+spec:
+  profile:
+    # Intentional no displayName for testing
+    email: monicajellybean@berkeley.edu
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Luna&backgroundColor=transparent
+  memberOf: [development]
