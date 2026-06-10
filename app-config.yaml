@@ -133,17 +133,10 @@ catalog:
       target: ../../catalog/entities/groups.yaml
       rules:
         - allow: [Group]
-    #  target: ../../catalog/entities/users.yaml
-    #  target: /home/monica_villanueva/repos/backstage-app/backstage/users.yaml
-    # # Local example data, file locations are relative to the backend process, typically `packages/backend`
-    # - type: file
-    #   target: ../../examples/entities.yaml
-
-    # # Local example template
-    # - type: file
-    #   target: ../../examples/template/template.yaml
-    #   rules:
-    #     - allow: [Template]
+    - type: url
+      target: https://github.com/monvillanueva/backstage-software-templates/blob/main/python-app/template.yaml
+      rules:
+        - allow: [Template]
 
     # # Local example organizational data
     # - type: file
