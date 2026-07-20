@@ -18,7 +18,7 @@ app:
           path: /
 
 organization:
-  name: My Company
+  name: Monica's IDP
 
 backend:
   # Used for enabling authentication, secret is shared by all backend plugins
@@ -101,7 +101,7 @@ auth:
             - resolver: usernameMatchingUserEntityName
 
     # See https://backstage.io/docs/auth/guest/provider
-    guest: {}
+    # guest: {}
   # see https://backstage.io/docs/ai/mcp-actions#client-id-metadata-documents
   # to learn more about client id metadata documents
   experimentalClientIdMetadataDocuments:
@@ -164,5 +164,5 @@ permission:
 
 # see https://backstage.io/docs/ai/mcp-actions for more details
 mcpActions:
-  name: 'My Company Backstage' # defaults to "backstage"
+  name: "Monica's IDP" # defaults to "backstage"
   description: 'Tools for managing your software catalog, creating new services from templates, and exploring your developer portal' # optional
